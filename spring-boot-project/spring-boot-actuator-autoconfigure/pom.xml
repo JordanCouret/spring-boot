@@ -455,6 +455,11 @@
 			<artifactId>spring-session-core</artifactId>
 			<optional>true</optional>
 		</dependency>
+		<dependency>
+			<groupId>org.quartz-scheduler</groupId>
+			<artifactId>quartz</artifactId>
+			<optional>true</optional>
+		</dependency>
 		<!-- Runtime -->
 		<dependency>
 			<groupId>com.fasterxml.jackson.datatype</groupId>

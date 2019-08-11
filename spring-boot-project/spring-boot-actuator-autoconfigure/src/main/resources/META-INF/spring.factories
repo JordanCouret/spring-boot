@@ -78,6 +78,7 @@ org.springframework.boot.actuate.autoconfigure.neo4j.Neo4jHealthIndicatorAutoCon
 org.springframework.boot.actuate.autoconfigure.redis.RedisHealthIndicatorAutoConfiguration,\
 org.springframework.boot.actuate.autoconfigure.redis.RedisReactiveHealthIndicatorAutoConfiguration,\
 org.springframework.boot.actuate.autoconfigure.scheduling.ScheduledTasksEndpointAutoConfiguration,\
+org.springframework.boot.actuate.autoconfigure.scheduling.QuartzEndpointAutoConfiguration,\
 org.springframework.boot.actuate.autoconfigure.security.reactive.ReactiveManagementWebSecurityAutoConfiguration,\
 org.springframework.boot.actuate.autoconfigure.security.servlet.ManagementWebSecurityAutoConfiguration,\
 org.springframework.boot.actuate.autoconfigure.session.SessionsEndpointAutoConfiguration,\
