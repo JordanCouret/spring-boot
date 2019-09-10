@@ -38,6 +38,8 @@ public class DataGenerator implements ApplicationRunner {
 		dynamicJob("LONG", 3600, 10000);
 	}
 
+
+
 	private void dynamicJob(String name, int interval, int nb) throws SchedulerException {
 		for (int i = 0; i < nb; i++) {
 			JobDataMap map = new JobDataMap();

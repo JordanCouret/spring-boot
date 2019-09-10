@@ -3,4 +3,15 @@ spring:
     admin:
       client:
         url: ${SBA_URL:http://localhost:8081/}
+  quartz:
+    properties:
+      org.quartz.jobStore.driverDelegateClass: org.quartz.impl.jdbcjobstore.PostgreSQLDelegate
+    jdbc.initialize-schema: always
+    job-store-type: jdbc
+  datasource:
+    url: ${POSTGRES_JDBC:jdbc:postgresql://localhost:5432/postgres}
+    username: ${POSTGRES_USER:postgres}
+    password: ${POSTGRES_PASSWORD:changeme}
+
+
 management.endpoints.web.exposure.include: "quartzjob,quartzgroup,quartztrigger"
